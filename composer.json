@@ -1,0 +1,28 @@
+{
+    "name": "ross/slim-api",
+    "description": "test slim API with Doctrine ORM",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Ross\\SlimApi\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Rosen Blagoev"
+        }
+    ],
+    "require": {
+        "slim/slim": "4.*",
+        "symfony/cache": "^6.2",
+        "slim/psr7": "^1.6",
+        "symfony/console": "^6.2",
+        "symfony/polyfill-uuid": "^1.27",
+        "doctrine/migrations": "^3.5",
+        "vlucas/phpdotenv": "^5.5",
+        "doctrine/orm": "^2.14",
+        "doctrine/dbal": "^3.4",
+        "php-di/php-di": "^7.0",
+        "slim/http": "^1.3"
+    }
+}
